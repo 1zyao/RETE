@@ -5,6 +5,8 @@ window.conf = {
     online_players_max: 2023, //最大玩家数
     server_online_time: 46556, // 服务器在线时间
     server_online_map: "http://p4.simpfun.cn:8948/" //服务器卫星地图
+    server_status: "./status" //服务器状态检测
+    qq: "https://jq.qq.com/?_wv=1027&k=o0RFuHCW" //QQ
 }
 
 ////////////////////////////////////////////////////////
@@ -53,6 +55,10 @@ setTimeout(() => {
     document.getElementById("download_link0").href = window.conf.download_url;
     document.getElementById("download_link1").href = window.conf.download_url;
     document.getElementById("download_link2").href = window.conf.download_url;
-    document.getElementById("server_online_map").href = window.conf.server_online_map;
+    document.getElementById("server_online_map0").href = window.conf.server_online_map;
     document.getElementById("server_online_map1").href = window.conf.server_online_map;
+    document.getElementById("server_status0").href = window.conf.server_status;
+    document.getElementById("server_status1").href = window.conf.server_status;
+    document.getElementById("qq0").href = window.conf.qq;
+    document.getElementById("qq1").href = window.conf.qq;
 }, 500)
