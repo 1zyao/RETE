@@ -1,0 +1,19 @@
+<!--你好，世界！生活，从敲的第一行代码开始。祝您扒码愉快，有问题请提issues。-->
+<script>
+    console.log("您的浏览器支持JavaScript脚本!")
+    //请带参数url or go 
+    // /link.html?url=https://www.baidu.com
+    function GetQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]); return null;
+    }
+    var target = GetQueryString("url");
+    if (target != null && target.toString().length > 1) {
+        window.location.href = GetQueryString("url");
+    }
+    else {
+        window.location.href = "/";
+    }
+// 源码截取自：https://github.com/xiaozhu2007/xiaozhu2007.github.io/blob/master/jump.html
+</script>
