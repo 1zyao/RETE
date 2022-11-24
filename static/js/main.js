@@ -5,7 +5,6 @@ else {
     console.log("用户来自 " + referrer);
 }
 function setSiteTime() {
-    window.setTimeout("siteTime()", 1000);
     var seconds = 1000;
     var minutes = seconds * 60;
     var hours = minutes * 60;
