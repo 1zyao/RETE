@@ -4,7 +4,7 @@ if (referrer = document.referrer) {
 else {
     console.log("用户来自 " + referrer);
 }
-function siteTime() {
+function setSiteTime() {
     window.setTimeout("siteTime()", 1000);
     var seconds = 1000;
     var minutes = seconds * 60;
@@ -44,5 +44,5 @@ function siteTime() {
             " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒 ";
     }
 }
-setInterval(siteTime, 1000);
+setTimeout(setInterval(setSiteTime, 1000), 10000);
 // TODO: LazyLoad
