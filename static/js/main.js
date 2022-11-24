@@ -1,10 +1,10 @@
 window.conf = {
-    download_url: "https://www.123pan.com/s/YFuuVv-gMBc",
-    download_times: 43,
-    online_players_persent: 2,
-    online_players_max: 2023,
-    server_online_time: 46556,
-    server_online_map: "http://p4.simpfun.cn:8948/"
+    download_url: "https://www.123pan.com/s/YFuuVv-gMBc", // 客户端下载地址
+    download_times: 43, // 下载次数
+    online_players_persent: 2, //在线玩家
+    online_players_max: 2023, //最大玩家数
+    server_online_time: 46556, // 服务器在线时间
+    server_online_map: "http://p4.simpfun.cn:8948/" //服务器卫星地图
 }
 
 ////////////////////////////////////////////////////////
@@ -59,4 +59,5 @@ setTimeout(() => {
     document.getElementById("download_link0").href = window.conf.download_url;
     document.getElementById("download_link1").href = window.conf.download_url;
     document.getElementById("download_link2").href = window.conf.download_url;
+    document.getElementById("server_online_map").href = window.conf.server_online_map;
 }, 500)
