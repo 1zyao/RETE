@@ -55,3 +55,5 @@ setTimeout(() => {
     document.getElementById("download_link2").href = window.conf.download_url;
     document.getElementById("server_online_map").href = window.conf.server_online_map;
 }, 500)
+    document.getElementById("server_online_map1").href = window.conf.server_online_map;
+}, 500)
