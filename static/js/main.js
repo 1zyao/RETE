@@ -1,4 +1,3 @@
-//TODO: Add main.js
 if (referrer = document.referrer) {
     console.log("用户直接输入网址访问");
 }
@@ -46,3 +45,4 @@ function siteTime() {
     }
 }
 setInterval(siteTime, 1000);
+// TODO: LazyLoad
