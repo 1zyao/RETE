@@ -52,8 +52,8 @@ function setSiteTime() {
             " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒 ";
     }
 }
-// TODO: LazyLoad
+// TODO: LazyLoad 3
 setTimeout(setInterval(setSiteTime, 1000), 5000);
 setTimeout(() => {
-    document.getElementById("download_link").herf = window.conf.download_url
+    document.getElementById("download_link").href = window.conf.download_url;
 }, 500)
