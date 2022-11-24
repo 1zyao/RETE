@@ -1,3 +1,12 @@
+window.conf = {
+    download_url: "https://www.123pan.com/s/YFuuVv-gMBc",
+    download_times: 43,
+    online_players_persent: 2,
+    online_players_max: 2023,
+    server_online_time: 46556
+}
+
+////////////////////////////////////////////////////////
 if (referrer = document.referrer) {
     console.log("用户直接输入网址访问");
 }
@@ -43,5 +52,8 @@ function setSiteTime() {
             " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒 ";
     }
 }
-setTimeout(setInterval(setSiteTime, 1000), 10000);
 // TODO: LazyLoad
+setTimeout(setInterval(setSiteTime, 1000), 5000);
+setTimeout(() => {
+    document.getElementById("download_link").herf = window.conf.download_url
+}, 500)
