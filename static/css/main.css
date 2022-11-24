@@ -106,7 +106,7 @@ a {
 
 #footer p[id="counter"] {
 	color: #337AB7;
-	padding-bottom: 50px;
+	text-align: center;
 }
 
 .box a {
