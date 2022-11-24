@@ -8,12 +8,6 @@ window.conf = {
 }
 
 ////////////////////////////////////////////////////////
-if (referrer = document.referrer) {
-    console.log("用户直接输入网址访问");
-}
-else {
-    console.log("用户来自 " + referrer);
-}
 function setSiteTime() {
     var seconds = 1000;
     var minutes = seconds * 60;
