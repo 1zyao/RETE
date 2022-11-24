@@ -3,7 +3,8 @@ window.conf = {
     download_times: 43,
     online_players_persent: 2,
     online_players_max: 2023,
-    server_online_time: 46556
+    server_online_time: 46556,
+    server_online_map: "http://p4.simpfun.cn:8948/"
 }
 
 ////////////////////////////////////////////////////////
@@ -55,5 +56,7 @@ function setSiteTime() {
 // TODO: LazyLoad 3
 setTimeout(setInterval(setSiteTime, 1000), 5000);
 setTimeout(() => {
-    document.getElementById("download_link").href = window.conf.download_url;
+    document.getElementById("download_link0").href = window.conf.download_url;
+    document.getElementById("download_link1").href = window.conf.download_url;
+    document.getElementById("download_link2").href = window.conf.download_url;
 }, 500)
