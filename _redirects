@@ -1,0 +1,4 @@
+/*.html  /:splat
+
+# For search engines
+/sitemap.html        /sitemap.xml      200
