@@ -47,8 +47,19 @@ function setSiteTime() {
             " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒 ";
     }
 }
+<<<<<<< HEAD
 // TODO: LazyLoad 4
 setInterval(setSiteTime, 1000)
 setTimeout(() => {
 
+=======
+// TODO: LazyLoad 3
+setTimeout(setInterval(setSiteTime, 1000), 5000);
+setTimeout(() => {
+    document.getElementById("download_link0").href = window.conf.download_url;
+    document.getElementById("download_link1").href = window.conf.download_url;
+    document.getElementById("download_link2").href = window.conf.download_url;
+    document.getElementById("server_online_map").href = window.conf.server_online_map;
+    document.getElementById("server_online_map1").href = window.conf.server_online_map;
+>>>>>>> parent of adefad4 (改成class定位，速度更快)
 }, 500)
