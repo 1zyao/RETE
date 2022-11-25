@@ -47,12 +47,9 @@ function setSiteTime() {
             " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒 ";
     }
 }
-// TODO: LazyLoad 3
+// TODO: LazyLoad 4
 setTimeout(setInterval(setSiteTime, 1000), 5000);
 setTimeout(() => {
-    document.getElementById("download_link0").href = window.conf.download_url;
-    document.getElementById("download_link1").href = window.conf.download_url;
-    document.getElementById("download_link2").href = window.conf.download_url;
-    document.getElementById("server_online_map").href = window.conf.server_online_map;
-    document.getElementById("server_online_map1").href = window.conf.server_online_map;
+    document.getElementsByClassName("download_link").href = window.conf.download_url;
+    document.getElementsByClassName("server_online_map").href = window.conf.server_online_map;
 }, 500)
