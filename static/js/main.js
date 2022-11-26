@@ -50,5 +50,6 @@ function setSiteTime() {
 // TODO: LazyLoad 4
 setInterval(setSiteTime, 1000)
 setTimeout(() => {
-
+    document.getElementsByClassName("download_link").href = window.conf.download_url;
+    document.getElementsByClassName("server_online_map").href = window.conf.server_online_map;
 }, 500)
