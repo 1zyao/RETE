@@ -47,6 +47,9 @@ function setSiteTime() {
             " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒 ";
     }
 }
-
-document.getElementsByClassName("server_online_map").href = window.conf.server_online_map;
-document.getElementsByClassName("download_link").href = window.conf.download_url;
+// TODO: LazyLoad 4
+setTimeout(setInterval(setSiteTime, 1000), 5000);
+setTimeout(() => {
+    document.getElementsByClassName("download_link").href = window.conf.download_url;
+    document.getElementsByClassName("server_online_map").href = window.conf.server_online_map;
+}, 500)
