@@ -4,7 +4,7 @@ window.conf = {
     online_players_persent: 2, //在线玩家
     online_players_max: 2023, //最大玩家数
     server_online_time: 46556, // 服务器在线时间
-    server_online_map: "http://p4.simpfun.cn:8948/" //服务器卫星地图
+    server_online_map: "http://map.rete.buzz:8948/" //服务器卫星地图
 }
 
 ////////////////////////////////////////////////////////
