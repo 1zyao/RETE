@@ -31,7 +31,7 @@ a {
 }
 
 .join-item {
-	font-size: 30px;
+	font-size: 1.875em;
 	color: white;
 	padding-bottom: 50px;
 }
@@ -68,12 +68,12 @@ a {
 }
 
 .item-font h3 {
-	line-height: 80px;
+	line-height: 5em;
 	color: #333333;
 }
 
 .item-font p {
-	line-height: 35px;
+	line-height: 2.1875em;
 }
 
 .item-font a {
@@ -81,11 +81,11 @@ a {
 }
 
 .item-font img {
-	margin-top: 100px;
-	box-shadow: 8px 8px 10px #EAEAEA;
+	margin-top: 6.25em;
+	box-shadow: 0.5em 0.5em 0.625em #EAEAEA;
 	float: right;
-	height: 400px;
-	width: 349px;
+	height: 25em;
+	width: 21.8125em;
 }
 
 #footer {
