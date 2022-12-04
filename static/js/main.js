@@ -1,5 +1,5 @@
 window.conf = {
-    download_url: "https://www.123pan.com/s/YFuuVv-gMBc", // 客户端下载地址
+    download_url: "https://www.123pan.com/s/YFuuVv-xXBc", // 客户端下载地址
     download_times: 43, // 下载次数
     online_players_persent: 2, //在线玩家
     online_players_max: 2023, //最大玩家数
