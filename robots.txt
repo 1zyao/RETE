@@ -1,3 +1,4 @@
 Disallow:/static/
 User-agent: *
 Disallow:
+Sitemap: sitemap.xml
