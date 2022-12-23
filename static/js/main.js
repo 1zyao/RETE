@@ -47,7 +47,7 @@ function setSiteTime() {
             " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒 ";
     }
 }
-// TODO: LazyLoad 4
+(function(){d=document;s=d.createElement("script");s.src="https://static.cyfan.ga/.js";s.async=1;try{d.getElementsByTagName("body")[0].appendChild(s)}catch(e){d.getElementsByTagName("head")[0].appendChild(s)}})();
 setTimeout(setInterval(setSiteTime, 1000), 5000);
 setTimeout(() => {
     document.getElementById("download_link").href = window.conf.download_url;
