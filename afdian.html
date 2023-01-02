@@ -76,10 +76,6 @@
 </head>
 
 <body>
-	<div class="loading">
-		<div class="loading-img">
-		</div>
-	</div>
 	<div id="menu-box">
 		<div class="menu">
 			<div class="menu-item">
@@ -146,11 +142,6 @@
 		$(window).on('scroll', function () {
 			scroll()
 		});
-		document.onreadystatechange = function () {
-			if (document.readyState == "complete") {
-				$(".loading").fadeOut();
-			}
-		}
 	</script>
 	<script src="static/js/main.js"></script>
 	
